@@ -93,8 +93,8 @@ class DatabaseHelper {
           'id': wordJson['id'],
           'word': wordJson['word'],
           'level': wordJson['level'],
-          'partOfSpeech': wordJson['partOfSpeech'],
-          'definition': wordJson['definition'],
+          'partOfSpeech': wordJson['partOfSpeech'] ?? wordJson['pos'],
+          'definition': wordJson['definition'] ?? wordJson['meaning'],
           'example': wordJson['example'],
           'category': wordJson['category'] ?? 'General',
           'isFavorite': 0,
@@ -443,6 +443,7 @@ class DatabaseHelper {
     db.close();
   }
 }
+
 
 
 
