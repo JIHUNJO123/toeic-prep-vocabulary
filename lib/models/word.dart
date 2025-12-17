@@ -53,9 +53,16 @@ class Word {
       translations = {};
       (json['translations'] as Map<String, dynamic>).forEach((langCode, data) {
         if (data is Map<String, dynamic>) {
+          // IELTS/TOEFL style: {"ko": {"definition": "...", "example": "..."}}
           translations![langCode] = {
             'definition': data['definition']?.toString() ?? '',
             'example': data['example']?.toString() ?? '',
+          };
+        } else if (data is String) {
+          // TOEIC style: {"ko": "번역문"} - definition only
+          translations![langCode] = {
+            'definition': data,
+            'example': '',
           };
         }
       });
@@ -115,9 +122,16 @@ class Word {
           translations = {};
           decoded.forEach((langCode, data) {
             if (data is Map<String, dynamic>) {
+              // IELTS/TOEFL style: {"ko": {"definition": "...", "example": "..."}}
               translations![langCode] = {
                 'definition': data['definition']?.toString() ?? '',
                 'example': data['example']?.toString() ?? '',
+              };
+            } else if (data is String) {
+              // TOEIC style: {"ko": "번역문"} - definition only
+              translations![langCode] = {
+                'definition': data,
+                'example': '',
               };
             }
           });
@@ -201,6 +215,7 @@ class Word {
     );
   }
 }
+
 
 
 
