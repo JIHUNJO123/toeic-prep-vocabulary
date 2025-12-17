@@ -1,7 +1,7 @@
 ﻿name: toeic_vocab_app
 description: "TOEIC Prep Essential Vocabulary - Master vocabulary for TOEIC success"
 publish_to: 'none'
-version: 1.0.0+2
+version: 1.0.0+3
 
 environment:
   sdk: ^3.7.0
@@ -34,4 +34,5 @@ flutter:
 
   assets:
     - assets/data/
+
 
