@@ -1,4 +1,4 @@
-import 'package:flutter/material.dart';
+﻿import 'package:flutter/material.dart';
 import 'package:flip_card/flip_card.dart';
 import 'package:toeic_vocab_app/l10n/generated/app_localizations.dart';
 import 'package:shared_preferences/shared_preferences.dart';
@@ -192,13 +192,13 @@ class _WordListScreenState extends State<WordListScreen> {
 
   Color _getLevelColor(String level) {
     switch (level) {
-      case '61-80':
+      case '0-400':
         return Colors.green;
-      case '81-100':
+      case '400-600':
         return Colors.blue;
-      case '101-110':
+      case '600-800':
         return Colors.orange;
-      case '111-120':
+      case '800-990':
         return Colors.red;
       default:
         return Colors.blue;
@@ -209,10 +209,10 @@ class _WordListScreenState extends State<WordListScreen> {
     final l10n = AppLocalizations.of(context)!;
     final bands = [
       {'level': null, 'name': l10n.allWords, 'color': Colors.grey},
-      {'level': '61-80', 'name': '61-80', 'color': Colors.green},
-      {'level': '81-100', 'name': '81-100', 'color': Colors.blue},
-      {'level': '101-110', 'name': '101-110', 'color': Colors.orange},
-      {'level': '111-120', 'name': '111-120', 'color': Colors.red},
+      {'level': '0-400', 'name': '0-400', 'color': Colors.green},
+      {'level': '400-600', 'name': '400-600', 'color': Colors.blue},
+      {'level': '600-800', 'name': '600-800', 'color': Colors.orange},
+      {'level': '800-990', 'name': '800-990', 'color': Colors.red},
     ];
 
     showModalBottomSheet(
@@ -767,6 +767,8 @@ class _WordListScreenState extends State<WordListScreen> {
     );
   }
 }
+
+
 
 
 
