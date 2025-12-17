@@ -1,0 +1,454 @@
+{
+  "words": [
+    {
+      "id": 1,
+      "word": "account",
+      "meaning": "a record of money; a bank account",
+      "example": "Please check your account balance.",
+      "pos": "noun",
+      "level": "0-400",
+      "translations": {}
+    },
+    {
+      "id": 2,
+      "word": "address",
+      "meaning": "to speak to or deal with",
+      "example": "The manager will address the issue.",
+      "pos": "verb",
+      "level": "0-400",
+      "translations": {}
+    },
+    {
+      "id": 3,
+      "word": "agenda",
+      "meaning": "a list of items to be discussed",
+      "example": "The agenda includes budget review.",
+      "pos": "noun",
+      "level": "0-400",
+      "translations": {}
+    },
+    {
+      "id": 4,
+      "word": "agree",
+      "meaning": "to have the same opinion",
+      "example": "We agree on the proposal.",
+      "pos": "verb",
+      "level": "0-400",
+      "translations": {}
+    },
+    {
+      "id": 5,
+      "word": "agreement",
+      "meaning": "an arrangement between parties",
+      "example": "They signed the agreement.",
+      "pos": "noun",
+      "level": "0-400",
+      "translations": {}
+    },
+    {
+      "id": 6,
+      "word": "allow",
+      "meaning": "to permit or let",
+      "example": "The policy allows flexible hours.",
+      "pos": "verb",
+      "level": "0-400",
+      "translations": {}
+    },
+    {
+      "id": 7,
+      "word": "amount",
+      "meaning": "a quantity of something",
+      "example": "The total amount is $500.",
+      "pos": "noun",
+      "level": "0-400",
+      "translations": {}
+    },
+    {
+      "id": 8,
+      "word": "announce",
+      "meaning": "to make known publicly",
+      "example": "They will announce the results.",
+      "pos": "verb",
+      "level": "0-400",
+      "translations": {}
+    },
+    {
+      "id": 9,
+      "word": "annual",
+      "meaning": "occurring once a year",
+      "example": "We have an annual meeting.",
+      "pos": "adj",
+      "level": "0-400",
+      "translations": {}
+    },
+    {
+      "id": 10,
+      "word": "answer",
+      "meaning": "a reply or response",
+      "example": "Please answer the phone.",
+      "pos": "verb",
+      "level": "0-400",
+      "translations": {}
+    },
+    {
+      "id": 11,
+      "word": "apply",
+      "meaning": "to make a formal request",
+      "example": "I want to apply for the job.",
+      "pos": "verb",
+      "level": "0-400",
+      "translations": {}
+    },
+    {
+      "id": 12,
+      "word": "appointment",
+      "meaning": "a scheduled meeting",
+      "example": "I have an appointment at 3 PM.",
+      "pos": "noun",
+      "level": "0-400",
+      "translations": {}
+    },
+    {
+      "id": 13,
+      "word": "approve",
+      "meaning": "to officially agree to",
+      "example": "The board approved the budget.",
+      "pos": "verb",
+      "level": "0-400",
+      "translations": {}
+    },
+    {
+      "id": 14,
+      "word": "arrange",
+      "meaning": "to organize or plan",
+      "example": "Please arrange the meeting.",
+      "pos": "verb",
+      "level": "0-400",
+      "translations": {}
+    },
+    {
+      "id": 15,
+      "word": "arrive",
+      "meaning": "to reach a destination",
+      "example": "The package will arrive tomorrow.",
+      "pos": "verb",
+      "level": "0-400",
+      "translations": {}
+    },
+    {
+      "id": 16,
+      "word": "ask",
+      "meaning": "to request information",
+      "example": "Please ask any questions.",
+      "pos": "verb",
+      "level": "0-400",
+      "translations": {}
+    },
+    {
+      "id": 17,
+      "word": "assign",
+      "meaning": "to give a task to someone",
+      "example": "I will assign the project to you.",
+      "pos": "verb",
+      "level": "0-400",
+      "translations": {}
+    },
+    {
+      "id": 18,
+      "word": "assist",
+      "meaning": "to help or support",
+      "example": "Can I assist you?",
+      "pos": "verb",
+      "level": "0-400",
+      "translations": {}
+    },
+    {
+      "id": 19,
+      "word": "attend",
+      "meaning": "to be present at",
+      "example": "Please attend the meeting.",
+      "pos": "verb",
+      "level": "0-400",
+      "translations": {}
+    },
+    {
+      "id": 20,
+      "word": "available",
+      "meaning": "able to be used or obtained",
+      "example": "The room is available.",
+      "pos": "adj",
+      "level": "0-400",
+      "translations": {}
+    },
+    {
+      "id": 21,
+      "word": "balance",
+      "meaning": "the amount remaining",
+      "example": "Check your account balance.",
+      "pos": "noun",
+      "level": "0-400",
+      "translations": {}
+    },
+    {
+      "id": 22,
+      "word": "bank",
+      "meaning": "a financial institution",
+      "example": "I went to the bank.",
+      "pos": "noun",
+      "level": "0-400",
+      "translations": {}
+    },
+    {
+      "id": 23,
+      "word": "begin",
+      "meaning": "to start",
+      "example": "The meeting will begin at 9 AM.",
+      "pos": "verb",
+      "level": "0-400",
+      "translations": {}
+    },
+    {
+      "id": 24,
+      "word": "benefit",
+      "meaning": "an advantage or profit",
+      "example": "Health insurance is a benefit.",
+      "pos": "noun",
+      "level": "0-400",
+      "translations": {}
+    },
+    {
+      "id": 25,
+      "word": "book",
+      "meaning": "to reserve in advance",
+      "example": "I need to book a flight.",
+      "pos": "verb",
+      "level": "0-400",
+      "translations": {}
+    },
+    {
+      "id": 26,
+      "word": "boss",
+      "meaning": "a person in charge",
+      "example": "My boss approved my vacation.",
+      "pos": "noun",
+      "level": "0-400",
+      "translations": {}
+    },
+    {
+      "id": 27,
+      "word": "branch",
+      "meaning": "a local office of a company",
+      "example": "We have a branch downtown.",
+      "pos": "noun",
+      "level": "0-400",
+      "translations": {}
+    },
+    {
+      "id": 28,
+      "word": "brand",
+      "meaning": "a type of product",
+      "example": "This is a popular brand.",
+      "pos": "noun",
+      "level": "0-400",
+      "translations": {}
+    },
+    {
+      "id": 29,
+      "word": "break",
+      "meaning": "a pause from work",
+      "example": "Let's take a short break.",
+      "pos": "noun",
+      "level": "0-400",
+      "translations": {}
+    },
+    {
+      "id": 30,
+      "word": "budget",
+      "meaning": "a plan for spending money",
+      "example": "We need to review the budget.",
+      "pos": "noun",
+      "level": "0-400",
+      "translations": {}
+    },
+    {
+      "id": 31,
+      "word": "build",
+      "meaning": "to construct or create",
+      "example": "They will build a new office.",
+      "pos": "verb",
+      "level": "0-400",
+      "translations": {}
+    },
+    {
+      "id": 32,
+      "word": "business",
+      "meaning": "commercial activity",
+      "example": "Business is good this year.",
+      "pos": "noun",
+      "level": "0-400",
+      "translations": {}
+    },
+    {
+      "id": 33,
+      "word": "busy",
+      "meaning": "having much to do",
+      "example": "I am very busy today.",
+      "pos": "adj",
+      "level": "0-400",
+      "translations": {}
+    },
+    {
+      "id": 34,
+      "word": "buy",
+      "meaning": "to purchase",
+      "example": "I want to buy a new computer.",
+      "pos": "verb",
+      "level": "0-400",
+      "translations": {}
+    },
+    {
+      "id": 35,
+      "word": "call",
+      "meaning": "to telephone",
+      "example": "I will call you later.",
+      "pos": "verb",
+      "level": "0-400",
+      "translations": {}
+    },
+    {
+      "id": 36,
+      "word": "cancel",
+      "meaning": "to decide not to do something",
+      "example": "We had to cancel the meeting.",
+      "pos": "verb",
+      "level": "0-400",
+      "translations": {}
+    },
+    {
+      "id": 37,
+      "word": "candidate",
+      "meaning": "a person applying for a job",
+      "example": "We interviewed five candidates.",
+      "pos": "noun",
+      "level": "0-400",
+      "translations": {}
+    },
+    {
+      "id": 38,
+      "word": "career",
+      "meaning": "a profession or occupation",
+      "example": "She has a successful career.",
+      "pos": "noun",
+      "level": "0-400",
+      "translations": {}
+    },
+    {
+      "id": 39,
+      "word": "cash",
+      "meaning": "money in coins or notes",
+      "example": "Do you accept cash?",
+      "pos": "noun",
+      "level": "0-400",
+      "translations": {}
+    },
+    {
+      "id": 40,
+      "word": "cause",
+      "meaning": "to make something happen",
+      "example": "The delay caused problems.",
+      "pos": "verb",
+      "level": "0-400",
+      "translations": {}
+    },
+    {
+      "id": 41,
+      "word": "celebrate",
+      "meaning": "to honor with festivities",
+      "example": "We will celebrate the success.",
+      "pos": "verb",
+      "level": "0-400",
+      "translations": {}
+    },
+    {
+      "id": 42,
+      "word": "center",
+      "meaning": "a place for an activity",
+      "example": "The conference center is large.",
+      "pos": "noun",
+      "level": "0-400",
+      "translations": {}
+    },
+    {
+      "id": 43,
+      "word": "certain",
+      "meaning": "sure or definite",
+      "example": "I am certain about the date.",
+      "pos": "adj",
+      "level": "0-400",
+      "translations": {}
+    },
+    {
+      "id": 44,
+      "word": "chair",
+      "meaning": "to lead a meeting",
+      "example": "She will chair the committee.",
+      "pos": "verb",
+      "level": "0-400",
+      "translations": {}
+    },
+    {
+      "id": 45,
+      "word": "change",
+      "meaning": "to make different",
+      "example": "We need to change the schedule.",
+      "pos": "verb",
+      "level": "0-400",
+      "translations": {}
+    },
+    {
+      "id": 46,
+      "word": "charge",
+      "meaning": "to ask for payment",
+      "example": "They charge $50 per hour.",
+      "pos": "verb",
+      "level": "0-400",
+      "translations": {}
+    },
+    {
+      "id": 47,
+      "word": "check",
+      "meaning": "to examine or verify",
+      "example": "Please check the document.",
+      "pos": "verb",
+      "level": "0-400",
+      "translations": {}
+    },
+    {
+      "id": 48,
+      "word": "choose",
+      "meaning": "to select",
+      "example": "Please choose an option.",
+      "pos": "verb",
+      "level": "0-400",
+      "translations": {}
+    },
+    {
+      "id": 49,
+      "word": "claim",
+      "meaning": "to request as rightful",
+      "example": "I need to file a claim.",
+      "pos": "verb",
+      "level": "0-400",
+      "translations": {}
+    },
+    {
+      "id": 50,
+      "word": "client",
+      "meaning": "a customer",
+      "example": "The client is satisfied.",
+      "pos": "noun",
+      "level": "0-400",
+      "translations": {}
+    }
+  ]
+}

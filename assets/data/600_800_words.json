@@ -1,0 +1,37 @@
+[
+  {
+    "word": "accelerate",
+    "partOfSpeech": "verb",
+    "definition": "To speed up",
+    "example": "Accelerate the production process.",
+    "translations": {}
+  },
+  {
+    "word": "acknowledge",
+    "partOfSpeech": "verb",
+    "definition": "To recognize",
+    "example": "Acknowledge the receipt.",
+    "translations": {}
+  },
+  {
+    "word": "administer",
+    "partOfSpeech": "verb",
+    "definition": "To manage",
+    "example": "Administer the program.",
+    "translations": {}
+  },
+  {
+    "word": "advocate",
+    "partOfSpeech": "verb",
+    "definition": "To support publicly",
+    "example": "Advocate for change.",
+    "translations": {}
+  },
+  {
+    "word": "aggregate",
+    "partOfSpeech": "verb",
+    "definition": "To combine",
+    "example": "Aggregate the data.",
+    "translations": {}
+  }
+]

@@ -1,0 +1,37 @@
+[
+  {
+    "word": "accomplish",
+    "partOfSpeech": "verb",
+    "definition": "To complete successfully",
+    "example": "We accomplished our goal.",
+    "translations": {}
+  },
+  {
+    "word": "acquire",
+    "partOfSpeech": "verb",
+    "definition": "To obtain",
+    "example": "The company acquired a new subsidiary.",
+    "translations": {}
+  },
+  {
+    "word": "adjacent",
+    "partOfSpeech": "adjective",
+    "definition": "Next to",
+    "example": "The adjacent building.",
+    "translations": {}
+  },
+  {
+    "word": "allocate",
+    "partOfSpeech": "verb",
+    "definition": "To distribute",
+    "example": "Allocate resources efficiently.",
+    "translations": {}
+  },
+  {
+    "word": "anticipate",
+    "partOfSpeech": "verb",
+    "definition": "To expect",
+    "example": "We anticipate high demand.",
+    "translations": {}
+  }
+]
