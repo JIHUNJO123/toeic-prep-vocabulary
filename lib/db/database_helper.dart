@@ -79,7 +79,8 @@ class DatabaseHelper {
       final String response = await rootBundle.loadString(
         'assets/data/words.json',
       );
-      final List<dynamic> data = json.decode(response);
+      final decoded = json.decode(response);
+      final List<dynamic> data = decoded is List ? decoded : decoded['words'];
 
       for (var wordJson in data) {
         // translations瑜?JSON 臾몄옄?대줈 ???
@@ -276,7 +277,8 @@ class DatabaseHelper {
         try {
           print('Loading JSON file: $file');
           final String response = await rootBundle.loadString(file);
-          final List<dynamic> data = json.decode(response);
+          final decoded = json.decode(response);
+          final List<dynamic> data = decoded is List ? decoded : decoded['words'];
           final words = data.map((json) => Word.fromJson(json)).toList();
           print('  Loaded ${words.length} words from $file');
           // 泥?踰덉㎏ ?⑥뼱??踰덉뿭 ?뺤씤
@@ -441,6 +443,8 @@ class DatabaseHelper {
     db.close();
   }
 }
+
+
 
 
 
