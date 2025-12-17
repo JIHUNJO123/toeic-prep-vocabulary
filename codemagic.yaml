@@ -1,15 +1,15 @@
-workflows:
+﻿workflows:
   android-workflow:
     name: Android Release
     max_build_duration: 60
     instance_type: mac_mini_m1
     environment:
       android_signing:
-        - toefl_keystore
+        - toeic_keystore
       groups:
         - google_credentials
       vars:
-        PACKAGE_NAME: "com.jhjo.toefl_vocab_app"
+        PACKAGE_NAME: "com.jhjo.toeic_vocab_app"
       flutter: stable
       java: 17
     scripts:
@@ -48,11 +48,11 @@ workflows:
     max_build_duration: 120
     instance_type: mac_mini_m1
     integrations:
-      app_store_connect: TOEFL Vocab App
+      app_store_connect: TOEIC Vocab App
     environment:
       ios_signing:
         distribution_type: app_store
-        bundle_identifier: com.jhjo.toeflVocabApp
+        bundle_identifier: com.jhjo.toeicVocabApp
       vars:
         APP_ID: 0000000000
       flutter: stable
