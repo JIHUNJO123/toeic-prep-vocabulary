@@ -5,8 +5,7 @@
 class Word {
   final int id;
   final String word;
-  final String
-  level; // TOEIC Band 기준: 61-80, 81-100, 101-110, 111-120
+  final String level; // TOEIC Band 기준: 61-80, 81-100, 101-110, 111-120
   final String partOfSpeech;
   final String definition; // 영어 정의
   final String example; // 영어 예문
@@ -60,10 +59,7 @@ class Word {
           };
         } else if (data is String) {
           // TOEIC style: {"ko": "번역문"} - definition only
-          translations![langCode] = {
-            'definition': data,
-            'example': '',
-          };
+          translations![langCode] = {'definition': data, 'example': ''};
         }
       });
     }
@@ -129,10 +125,7 @@ class Word {
               };
             } else if (data is String) {
               // TOEIC style: {"ko": "번역문"} - definition only
-              translations![langCode] = {
-                'definition': data,
-                'example': '',
-              };
+              translations![langCode] = {'definition': data, 'example': ''};
             }
           });
         }
@@ -215,8 +208,3 @@ class Word {
     );
   }
 }
-
-
-
-
-
