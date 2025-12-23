@@ -231,4 +231,22 @@ class AppLocalizationsVi extends AppLocalizations {
 
   @override
   String get noPurchaseFound => 'Không tìm thấy giao dịch mua hàng trước đó.';
+
+  @override
+  String get cancel => 'Hủy';
+
+  @override
+  String get selectQuizType => 'Chọn loại trắc nghiệm';
+
+  @override
+  String get allWordsQuiz => 'Tất cả các từ';
+
+  @override
+  String get favoritesOnlyQuiz => 'Chỉ mục yêu thích';
+
+  @override
+  String get selectByLevel => 'Chọn theo cấp độ';
+
+  @override
+  String get noFavoritesForQuiz => 'Chưa có mục yêu thích nào. Hãy thêm mục yêu thích trước!';
 }

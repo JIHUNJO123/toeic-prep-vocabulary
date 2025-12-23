@@ -97,6 +97,10 @@ class TOEICVocabApp extends StatelessWidget {
         Locale('es'),
         Locale('fr'),
         Locale('de'),
+        Locale('pt'),
+        Locale('vi'),
+        Locale('ar'),
+        Locale('id'),
       ],
       theme: ThemeData(
         colorScheme: ColorScheme.fromSeed(

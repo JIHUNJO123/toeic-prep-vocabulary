@@ -73,6 +73,12 @@
   "restorePurchaseDesc": "如果您之前在其他设备上购买过广告移除服务，或者在重新安装应用后购买过，请点击此处恢复您的购买。",
   "restoreComplete": "完全恢复",
   "noPurchaseFound": "未找到之前的购买记录",
+  "cancel": "取消",
+  "selectQuizType": "选择测验类型",
+  "allWordsQuiz": "所有单词",
+  "favoritesOnlyQuiz": "仅收藏夹",
+  "selectByLevel": "按级别选择",
+  "noFavoritesForQuiz": "没有保存的收藏。请先添加一些收藏！",
   "levelWords": "{level} 所有单词",
   "@levelWords": {
     "placeholders": {

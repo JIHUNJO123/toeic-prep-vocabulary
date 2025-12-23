@@ -231,4 +231,22 @@ class AppLocalizationsZh extends AppLocalizations {
 
   @override
   String get noPurchaseFound => '未找到之前的购买记录';
+
+  @override
+  String get cancel => '取消';
+
+  @override
+  String get selectQuizType => '选择测验类型';
+
+  @override
+  String get allWordsQuiz => '所有单词';
+
+  @override
+  String get favoritesOnlyQuiz => '仅收藏夹';
+
+  @override
+  String get selectByLevel => '按级别选择';
+
+  @override
+  String get noFavoritesForQuiz => '没有保存的收藏。请先添加一些收藏！';
 }

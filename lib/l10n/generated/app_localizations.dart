@@ -556,6 +556,42 @@ abstract class AppLocalizations {
   /// In en, this message translates to:
   /// **'No previous purchase found'**
   String get noPurchaseFound;
+
+  /// No description provided for @cancel.
+  ///
+  /// In en, this message translates to:
+  /// **'Cancel'**
+  String get cancel;
+
+  /// No description provided for @selectQuizType.
+  ///
+  /// In en, this message translates to:
+  /// **'Select Quiz Type'**
+  String get selectQuizType;
+
+  /// No description provided for @allWordsQuiz.
+  ///
+  /// In en, this message translates to:
+  /// **'All Words'**
+  String get allWordsQuiz;
+
+  /// No description provided for @favoritesOnlyQuiz.
+  ///
+  /// In en, this message translates to:
+  /// **'Favorites Only'**
+  String get favoritesOnlyQuiz;
+
+  /// No description provided for @selectByLevel.
+  ///
+  /// In en, this message translates to:
+  /// **'Select by Level'**
+  String get selectByLevel;
+
+  /// No description provided for @noFavoritesForQuiz.
+  ///
+  /// In en, this message translates to:
+  /// **'No favorites saved. Add some favorites first!'**
+  String get noFavoritesForQuiz;
 }
 
 class _AppLocalizationsDelegate extends LocalizationsDelegate<AppLocalizations> {

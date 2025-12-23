@@ -231,4 +231,22 @@ class AppLocalizationsId extends AppLocalizations {
 
   @override
   String get noPurchaseFound => 'Tidak ditemukan riwayat pembelian sebelumnya.';
+
+  @override
+  String get cancel => 'Batal';
+
+  @override
+  String get selectQuizType => 'Pilih Jenis Kuis';
+
+  @override
+  String get allWordsQuiz => 'Semua Kata';
+
+  @override
+  String get favoritesOnlyQuiz => 'Hanya Favorit';
+
+  @override
+  String get selectByLevel => 'Pilih Berdasarkan Tingkat';
+
+  @override
+  String get noFavoritesForQuiz => 'Tidak ada favorit yang tersimpan. Tambahkan beberapa favorit terlebih dahulu!';
 }

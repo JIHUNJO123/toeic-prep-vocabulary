@@ -73,6 +73,12 @@
   "restorePurchaseDesc": "Se você já comprou a remoção de anúncios em outro dispositivo ou após reinstalar o aplicativo, toque aqui para restaurar sua compra.",
   "restoreComplete": "Restaurar completamente",
   "noPurchaseFound": "Nenhuma compra anterior encontrada",
+  "cancel": "Cancelar",
+  "selectQuizType": "Selecione o tipo de quiz",
+  "allWordsQuiz": "Todas as palavras",
+  "favoritesOnlyQuiz": "Apenas favoritos",
+  "selectByLevel": "Selecionar por nível",
+  "noFavoritesForQuiz": "Nenhum favorito salvo. Adicione alguns favoritos primeiro!",
   "levelWords": "{level} palavras",
   "@levelWords": {
     "placeholders": {

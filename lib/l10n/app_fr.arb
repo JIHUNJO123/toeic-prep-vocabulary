@@ -73,6 +73,12 @@
   "restorePurchaseDesc": "Si vous avez déjà acheté la suppression des publicités sur un autre appareil ou après avoir réinstallé l'application, appuyez ici pour restaurer votre achat.",
   "restoreComplete": "Restauration complète",
   "noPurchaseFound": "Aucun achat précédent trouvé",
+  "cancel": "Annuler",
+  "selectQuizType": "Sélectionnez le type de quiz",
+  "allWordsQuiz": "Tous les mots",
+  "favoritesOnlyQuiz": "Favoris uniquement",
+  "selectByLevel": "Sélectionner par niveau",
+  "noFavoritesForQuiz": "Aucun favori enregistré. Ajoutez d'abord des favoris !",
   "levelWords": "{level} mots",
   "@levelWords": {
     "placeholders": {

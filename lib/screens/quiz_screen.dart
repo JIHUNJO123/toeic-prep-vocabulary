@@ -10,8 +10,9 @@ enum QuizType { wordToMeaning, meaningToWord }
 
 class QuizScreen extends StatefulWidget {
   final String? level;
+  final bool favoritesOnly;
 
-  const QuizScreen({super.key, this.level});
+  const QuizScreen({super.key, this.level, this.favoritesOnly = false});
 
   @override
   State<QuizScreen> createState() => _QuizScreenState();
@@ -41,7 +42,9 @@ class _QuizScreenState extends State<QuizScreen> {
     final jsonWords = await DatabaseHelper.instance.getWordsWithTranslations();
 
     List<Word> words;
-    if (widget.level != null) {
+    if (widget.favoritesOnly) {
+      words = jsonWords.where((w) => w.isFavorite).toList();
+    } else if (widget.level != null) {
       words = jsonWords.where((w) => w.level == widget.level).toList();
     } else {
       words = jsonWords;
