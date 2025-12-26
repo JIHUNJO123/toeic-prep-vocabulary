@@ -72,7 +72,8 @@ class AppLocalizationsPt extends AppLocalizations {
   String get dailyReminder => 'Lembrete diário';
 
   @override
-  String get dailyReminderDesc => 'Receba um lembrete para estudar todos os dias.';
+  String get dailyReminderDesc =>
+      'Receba um lembrete para estudar todos os dias.';
 
   @override
   String get removeAds => 'Remover anúncios';
@@ -111,7 +112,8 @@ class AppLocalizationsPt extends AppLocalizations {
   String get disclaimer => 'Isenção de responsabilidade';
 
   @override
-  String get disclaimerText => 'Este aplicativo é uma ferramenta independente de preparação para o TOEIC e não é afiliado, endossado ou aprovado pelo ETS (Educational Testing Service).';
+  String get disclaimerText =>
+      'Este aplicativo é uma ferramenta independente de preparação para o TOEIC e não é afiliado, endossado ou aprovado pelo ETS (Educational Testing Service).';
 
   @override
   String get privacyPolicy => 'política de Privacidade';
@@ -123,7 +125,8 @@ class AppLocalizationsPt extends AppLocalizations {
   String get noFavoritesYet => 'Ainda não tenho favoritos.';
 
   @override
-  String get tapHeartToSave => 'Toque no ícone de coração para salvar as palavras.';
+  String get tapHeartToSave =>
+      'Toque no ícone de coração para salvar as palavras.';
 
   @override
   String get addedToFavorites => 'Adicionado aos favoritos';
@@ -221,10 +224,12 @@ class AppLocalizationsPt extends AppLocalizations {
   String get keepPracticing => 'Continue praticando! Você vai melhorar!';
 
   @override
-  String get privacyPolicyContent => 'Este aplicativo não coleta, armazena ou compartilha nenhuma informação pessoal.\n\nSeu progresso de aprendizado e seus favoritos são armazenados apenas no seu dispositivo.\n\nNenhum dado é transmitido para servidores externos.';
+  String get privacyPolicyContent =>
+      'Este aplicativo não coleta, armazena ou compartilha nenhuma informação pessoal.\n\nSeu progresso de aprendizado e seus favoritos são armazenados apenas no seu dispositivo.\n\nNenhum dado é transmitido para servidores externos.';
 
   @override
-  String get restorePurchaseDesc => 'Se você já comprou a remoção de anúncios em outro dispositivo ou após reinstalar o aplicativo, toque aqui para restaurar sua compra.';
+  String get restorePurchaseDesc =>
+      'Se você já comprou a remoção de anúncios em outro dispositivo ou após reinstalar o aplicativo, toque aqui para restaurar sua compra.';
 
   @override
   String get restoreComplete => 'Restaurar completamente';
@@ -248,5 +253,22 @@ class AppLocalizationsPt extends AppLocalizations {
   String get selectByLevel => 'Selecionar por nível';
 
   @override
-  String get noFavoritesForQuiz => 'Nenhum favorito salvo. Adicione alguns favoritos primeiro!';
+  String get noFavoritesForQuiz =>
+      'Nenhum favorito salvo. Adicione alguns favoritos primeiro!';
+
+  @override
+  String get lockedContent => 'Locked Content';
+
+  @override
+  String get watchAdToUnlock =>
+      'Watch a short video to unlock all words until midnight!';
+
+  @override
+  String get watchAd => 'Watch Ad';
+
+  @override
+  String get adNotReady => 'Ad is not ready yet. Please try again.';
+
+  @override
+  String get unlockedUntilMidnight => 'All words unlocked until midnight!';
 }
