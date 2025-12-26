@@ -1,4 +1,4 @@
-﻿{
+{
   "@@locale": "es",
   "appTitle": "Vocabulario de preparación para el TOEIC",
   "todayWord": "La palabra de hoy",
@@ -86,7 +86,10 @@
         "type": "String"
       }
     }
-  }
+  },
+  "lockedContent": "Contenido bloqueado",
+  "watchAdToUnlock": "¡Mira un video corto para desbloquear todas las palabras hasta la medianoche!",
+  "watchAd": "Ver anuncio",
+  "adNotReady": "El anuncio aún no está listo. Por favor, inténtalo de nuevo.",
+  "unlockedUntilMidnight": "¡Todas las palabras desbloqueadas hasta la medianoche!"
 }
-
-
