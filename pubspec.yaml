@@ -1,7 +1,7 @@
 name: toeic_vocab_app
 description: "TOEIC Prep Essential Vocabulary - Master vocabulary for TOEIC success"
 publish_to: 'none'
-version: 1.0.9+27
+version: 1.0.9+28
 
 environment:
   sdk: ^3.7.0
