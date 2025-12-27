@@ -230,8 +230,6 @@ class _FavoritesFlashcardScreenState extends State<FavoritesFlashcardScreen> {
                                 textAlign: TextAlign.center,
                               ),
                               const Spacer(),
-                              ),
-                              const Spacer(),
                               Text(
                                 l10n.tapToFlip,
                                 style: TextStyle(
@@ -345,7 +343,3 @@ class _FavoritesFlashcardScreenState extends State<FavoritesFlashcardScreen> {
     );
   }
 }
-
-
-
-
